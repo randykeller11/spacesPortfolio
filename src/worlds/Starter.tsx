@@ -14,8 +14,8 @@ export default function Starter() {
       <Poster
         src="/images/aboutMe2.png"
         rotation={[0, -Math.PI / 2, 0]}
-        position={[20.34, 3.05, -9.8]}
-        scale={[2, 0.8, 1]}
+        position={[20.34, 2.3, -9.85]}
+        scale={[2, 1, 1]}
       />
     </StandardEnvironment>
   );
