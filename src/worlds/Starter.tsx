@@ -1,8 +1,10 @@
-import { Image, Floating, StandardEnvironment } from "spacesvr";
+import { Suspense } from "react";
+import { StandardEnvironment } from "spacesvr";
 import TransparentFloor from "../ideas/TransparentFloor";
 import CloudySky from "../ideas/CloudySky";
 import Office from "../components/Office";
 import Poster from "../components/Poster";
+import AvatarTyping from "../components/AvatarTyping";
 
 export default function Starter() {
   return (
@@ -17,6 +19,7 @@ export default function Starter() {
         position={[20.34, 2.3, -9.85]}
         scale={[2, 1, 1]}
       />
+      <AvatarTyping />
     </StandardEnvironment>
   );
 }
