@@ -18,9 +18,9 @@ export default function Model({ ...props }) {
   useEffect(() => {
     actions["Armature|mixamo.com|Layer0"].play();
 
-    group.current.position.x = 18.5;
-    group.current.position.y = -1.1;
-    group.current.position.z = -12.75;
+    group.current.position.x = -5;
+    group.current.position.y = -1;
+    group.current.position.z = -15;
     group.current.scale.x = 1.5;
     group.current.scale.y = 1.5;
     group.current.scale.z = 1.5;

@@ -5,7 +5,7 @@ interface storeState {
 }
 
 let useSceneStore = create<storeState>((set) => ({
-  scene: 0,
+  scene: 2,
 
   setScene: (newScene: number) =>
     set((state) => ({

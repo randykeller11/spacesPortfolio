@@ -6,6 +6,12 @@ import Galaxy from "../components/Galaxy";
 import useSceneStore from "../stores/sceneStore";
 import AvatarTyping from "../components/AvatarTyping";
 import LowPolyDesk from "../components/LowPolyDesk";
+import { useGLTF } from "@react-three/drei";
+
+function DeskChair({ ...props }) {
+  const { scene } = useGLTF("/deskChair.glb");
+  return <primitive object={scene} {...props} />;
+}
 
 export default function Home() {
   const sceneStore = useSceneStore();
@@ -33,8 +39,12 @@ export default function Home() {
         rotation={[0, Math.PI, 0]}
         scale={[0.4, 0.4, 0.4]}
       />
-
-      {/* <Interactable
+      <DeskChair
+        position={[18.45, -0.2, -12.7]}
+        rotation={[0, -Math.PI / 2, 0]}
+        scale={[0.8, 0.8, 0.8]}
+      />
+      <Interactable
         onClick={() => {
           sceneStore.setScene(1);
         }}
@@ -47,7 +57,7 @@ export default function Home() {
           hAlign="center"
           size={3}
         />
-      </Interactable> */}
+      </Interactable>
     </>
   );
 }
