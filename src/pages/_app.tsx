@@ -5,9 +5,9 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>spacesvr project</title>
+        <title>Randy Keller Portfolio</title>
       </Head>
       <Component {...pageProps} />
     </>
   );
-};
+}
