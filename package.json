@@ -36,8 +36,5 @@
     "prettier": "^2.2.1",
     "r3f-perf": "^0.79.0",
     "typescript": "^4.2.4"
-  },
-  "resolutions": {
-    "spacesvr/**/@react-three/fiber": "6.0.14"
   }
 }
