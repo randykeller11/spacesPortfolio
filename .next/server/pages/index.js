@@ -149,17 +149,6 @@ eval("module.exports = require(\"@react-three/drei\");//# sourceURL=[module]\n//
 
 /***/ }),
 
-/***/ "@react-three/fiber":
-/*!*************************************!*\
-  !*** external "@react-three/fiber" ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-eval("module.exports = require(\"@react-three/fiber\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vZXh0ZXJuYWwgXCJAcmVhY3QtdGhyZWUvZmliZXJcIj8zMjVkIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBIiwiZmlsZSI6IkByZWFjdC10aHJlZS9maWJlci5qcyIsInNvdXJjZXNDb250ZW50IjpbIm1vZHVsZS5leHBvcnRzID0gcmVxdWlyZShcIkByZWFjdC10aHJlZS9maWJlclwiKTsiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///@react-three/fiber\n");
-
-/***/ }),
-
 /***/ "next/dynamic":
 /*!*******************************!*\
   !*** external "next/dynamic" ***!
