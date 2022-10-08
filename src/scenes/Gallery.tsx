@@ -50,6 +50,12 @@ export default function Gallery() {
           scale={[2.5, 1.5, 1]}
         />
       </Interactable>
+      <Poster
+        src="/images/githubLogo.png"
+        rotation={[0, Math.PI / 2, 0]}
+        position={[-16.4, 4.2, -23]}
+        scale={[0.35, 0.35, 1]}
+      />
       <Interactable
         onClick={() =>
           window.location.assign("http://www.linkedin.com/in/randykeller1193")
@@ -62,6 +68,18 @@ export default function Gallery() {
           scale={[2.25, 1.5, 1]}
         />
       </Interactable>
+      <Poster
+        src="/images/linkedinLogo.jpeg"
+        rotation={[0, Math.PI / 2, 0]}
+        position={[-16.4, 4.2, -30]}
+        scale={[0.35, 0.35, 1]}
+      />
+      <Poster
+        src="/images/click.png"
+        rotation={[0, Math.PI / 2, 0]}
+        position={[-16.4, -0.5, -24]}
+        scale={[1, 0.35, 1]}
+      />
       <Interactable
         onClick={() => window.location.assign("http://www.groovejones.com")}
       >
@@ -79,27 +97,61 @@ export default function Gallery() {
         position={[17.55, 2, -6.5]}
         scale={[2.25, 1.5, 1]}
       />
-
       <Poster
-        src="/images/grooveJonesRes.png"
+        src="/images/react.png"
         rotation={[0, -Math.PI / 2, 0]}
-        position={[17.55, 1.75, -18.7]}
-        scale={[1.6, 1.5, 1]}
+        position={[17.55, 3.85, -23.5]}
+        scale={[1.15, 0.55, 1]}
       />
 
       <Poster
-        src="/images/intractRes.png"
+        src="/images/yarn.jpeg"
         rotation={[0, -Math.PI / 2, 0]}
-        position={[17.55, 1.75, -23.6]}
-        scale={[1.6, 1.5, 1]}
+        position={[17.55, 1.9, -23.5]}
+        scale={[1.15, 0.55, 1]}
       />
       <Poster
-        src="/images/muse.png"
+        src="/images/typescript.png"
         rotation={[0, -Math.PI / 2, 0]}
-        position={[17.55, 1.75, -28.5]}
-        scale={[1.6, 1.5, 1]}
+        position={[17.55, 3.85, -18]}
+        scale={[1, 0.5, 1]}
       />
-
+      <Poster
+        src="/images/nextjs.png"
+        rotation={[0, -Math.PI / 2, 0]}
+        position={[17.55, 2, -18]}
+        scale={[1, 0.5, 1]}
+      />
+      <Poster
+        src="/images/redux.png"
+        rotation={[0, -Math.PI / 2, 0]}
+        position={[17.55, 0, -18]}
+        scale={[1, 0.5, 1]}
+      />
+      <Poster
+        src="/images/material.png"
+        rotation={[0, -Math.PI / 2, 0]}
+        position={[17.55, 0, -29.25]}
+        scale={[1, 0.5, 1]}
+      />
+      <Poster
+        src="/images/three.png"
+        rotation={[0, -Math.PI / 2, 0]}
+        position={[17.55, 3.9, -29.25]}
+        scale={[1, 0.5, 1]}
+      />
+      <Poster
+        src="/images/figma.png"
+        rotation={[0, -Math.PI / 2, 0]}
+        position={[17.55, 2, -29.25]}
+        scale={[1, 0.5, 1]}
+      />
+      <Poster
+        src="/images/gitstuff.png"
+        rotation={[0, -Math.PI / 2, 0]}
+        position={[17.55, 0, -23.5]}
+        scale={[1.18, 0.5, 1]}
+      />
       <DeskChair position={[-1, 0, -6]} rotation={[0, -Math.PI / 2, 0]} />
       <Lobby
         position={[0, -1, 0]}
